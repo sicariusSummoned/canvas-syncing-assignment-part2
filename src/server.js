@@ -3,14 +3,7 @@ const socketio = require('socket.io');
 
 const fs = require('fs');
 
-const serverDraws = {
-  square: {
-    x: 0,
-    y: 0,
-    width: 50,
-    height: 50,
-  },
-};
+const serverDraws = {};
 
 const PORT = process.env.PORT || process.env.NODE_PORT || 3000;
 
